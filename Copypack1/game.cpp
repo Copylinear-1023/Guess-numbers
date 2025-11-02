@@ -12,13 +12,13 @@ int main()
 	while (true) {
 		srand((unsigned)time(NULL));
 		printf("Choose the level:\n ");
-		printf("[1] Easy(number range 0 - 10)\n");
+		printf("[1] Easy(number range 0 - 35)\n");
 		printf("[2] Medium (number range 0-50)\n");
 		printf("[3] Hard (number range 0-100)\n");
 		scanf(" %d", &level);
 		if (level == 1)
 		{
-			finalanwer = rand() % 10;
+			finalanwer = rand() % 35;
 		}
 		else if (level == 2)
 		{
@@ -117,4 +117,5 @@ int main()
 	
 	return 65535;
 }
+
 
