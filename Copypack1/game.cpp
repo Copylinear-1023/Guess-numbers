@@ -94,7 +94,7 @@ int main()
 		}
 		char reter;
 		printf("Need restart?\n");
-		printf("[yes]  [no]\n");
+		printf("[Y]  [N]\n");
 		scanf(" %c", &reter);
 		if (reter == 'y' || reter == 'Y')
 		{
@@ -117,3 +117,4 @@ int main()
 	
 	return 65535;
 }
+
